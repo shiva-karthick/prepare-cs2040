@@ -1,0 +1,1 @@
+/bin/clang-17 CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.c.o -o main  -lm 
