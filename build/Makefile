@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.o: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.o
-.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.o
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.o: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.o
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.o
 
 # target to build an object file
-home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.o
-.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.o
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.o
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.o
 
-home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.i: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.i
-.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.i
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.i: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.i
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.i
 
 # target to preprocess a source file
-home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.i
-.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.i
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.i
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.i
 
-home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.s: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.s
-.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.s
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.s: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.s
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.s
 
 # target to generate assembly for a file
-home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.s
-.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.s
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.s
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.o"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.i"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.s"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.o"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.i"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.s"
 .PHONY : help
 
 

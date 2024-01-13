@@ -27,7 +27,7 @@ project(prepare-cs2040)
 # link_directories(/usr/local/lib)
 
 # ----- 4. File to compile
-set(sources /home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp)
+set(sources /home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c)
 
 add_executable(main ${sources})
 

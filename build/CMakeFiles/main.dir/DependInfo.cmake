@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.o" "gcc" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.o.d"
+  "/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.o" "gcc" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.o.d"
   )
 
 # Targets to which this target links.
