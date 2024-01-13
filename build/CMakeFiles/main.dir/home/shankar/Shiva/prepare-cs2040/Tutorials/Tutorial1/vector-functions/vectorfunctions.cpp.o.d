@@ -1,5 +1,6 @@
-CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/cpp-crash-course.cpp.o: \
-  /home/shankar/Shiva/prepare-cs2040/cpp-crash-course.cpp \
+CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.o: \
+  /home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp \
+  /home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.h \
   /bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/iostream \
   /bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12/bits/c++config.h \
   /bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -171,6 +172,14 @@ CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/cpp-crash-course.cpp.o: \
   /bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/ostream.tcc \
   /bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/istream \
   /bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/istream.tcc \
+  /bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/algorithm \
+  /bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/stl_algo.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/algorithmfwd.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/stl_heap.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/stl_tempbuf.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/uniform_int_dist.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/pstl/glue_algorithm_defs.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/pstl/execution_defs.h \
   /bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/vector \
   /bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/stl_uninitialized.h \
   /bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/stl_vector.h \

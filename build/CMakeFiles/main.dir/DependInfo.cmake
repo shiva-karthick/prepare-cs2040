@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.c" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.c.o" "gcc" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.c.o.d"
+  "/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.o" "gcc" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.o.d"
   )
 
 # Targets to which this target links.

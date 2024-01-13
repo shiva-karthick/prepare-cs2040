@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.o: home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.c.o
-.PHONY : home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.o
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.o: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.o
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.o
 
 # target to build an object file
-home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.c.o
-.PHONY : home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.c.o
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.o
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.o
 
-home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.i: home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.c.i
-.PHONY : home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.i
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.i: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.i
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.i
 
 # target to preprocess a source file
-home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.c.i
-.PHONY : home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.c.i
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.i
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.i
 
-home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.s: home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.c.s
-.PHONY : home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.s
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.s: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.s
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.s
 
 # target to generate assembly for a file
-home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.c.s
-.PHONY : home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.c.s
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.s
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.o"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.i"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Algorithms-Design-Analysis-Part-1/HW1/merge-sort.s"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.o"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.i"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/vector-functions/vectorfunctions.s"
 .PHONY : help
 
 

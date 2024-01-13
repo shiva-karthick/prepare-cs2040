@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 template <class myType>
 myType GetMax(myType a, myType b)
@@ -7,30 +8,33 @@ myType GetMax(myType a, myType b)
     return (a > b ? a : b);
 }
 
+template <class T>
+class ListArray
+{
+private:
+    int N;
+    T A[100]; // This line.
+public:
+    ListArray() : N(0)
+    {
+    }
+    T get(int i)
+    {
+        return A[i];
+    }
+};
+
 int main(int argc, char const *argv[])
 {
-    /*
-    1. List ADT
-    2. Identify mistakes
-    3. Sorting
+    // create a vector
+    std::vector<int> v = {1, 2, 3, 4, 5};
 
-    */
-    int a = GetMax<int>(1, 2);
-    std::cout << a << std::endl;
-
-    /* Insertion sort: method insertionSort(array A[], integer N)
-    for i in [1..N-1] // O(N)
-        let X be A[i] // X is the next item to be inserted into A[0..i-1]
-
-        for j from i-1 down to 0 // this loop can be fast or slow
-            if A[j] > X
-                A[j+1] = A[j] // make a place for X
-            else
-                break
-
-        A[j+1] = X // insert X at index j+1
-    */
-    int arr[] = {5, 2, 4, 6};
+    // print the vector
+    v.push_back(6);
+    for (auto i = v.begin(); i != v.end(); ++i)
+    {
+        std::cout << *i << " ";
+    }
 
     return 0;
 }
