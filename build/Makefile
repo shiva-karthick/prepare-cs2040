@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.o: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.o
-.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.o
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.o: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.c.o
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.o
 
 # target to build an object file
-home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.o
-.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.o
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.c.o
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.c.o
 
-home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.i: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.i
-.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.i
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.i: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.c.i
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.i
 
 # target to preprocess a source file
-home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.i
-.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.i
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.c.i
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.c.i
 
-home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.s: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.s
-.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.s
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.s: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.c.s
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.s
 
 # target to generate assembly for a file
-home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.s
-.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.c.s
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.c.s
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.o"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.i"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/cutinline/cutinline.s"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.o"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.i"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/fluortanten/fluortanten.s"
 .PHONY : help
 
 
