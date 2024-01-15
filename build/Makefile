@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.o: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.cpp.o
-.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.o
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.o: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.cpp.o
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.o
 
 # target to build an object file
-home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.cpp.o
-.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.cpp.o
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.cpp.o
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.cpp.o
 
-home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.i: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.cpp.i
-.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.i
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.i: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.cpp.i
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.i
 
 # target to preprocess a source file
-home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.cpp.i
-.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.cpp.i
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.cpp.i
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.cpp.i
 
-home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.s: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.cpp.s
-.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.s
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.s: home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.cpp.s
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.s
 
 # target to generate assembly for a file
-home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.cpp.s
-.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.cpp.s
+home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.cpp.s
+.PHONY : home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.o"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.i"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.s"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.o"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.i"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.s"
 .PHONY : help
 
 

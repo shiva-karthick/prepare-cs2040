@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.cpp.o"
-  "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.cpp.o.d"
+  "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.cpp.o"
+  "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.cpp.o.d"
   "main"
   "main.pdb"
 )

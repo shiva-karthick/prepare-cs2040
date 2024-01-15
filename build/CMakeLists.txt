@@ -27,7 +27,7 @@ project(prepare-cs2040)
 # link_directories(/usr/local/lib)
 
 # ----- 4. File to compile
-set(sources /home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.cpp)
+set(sources /home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.cpp)
 
 add_executable(main ${sources})
 

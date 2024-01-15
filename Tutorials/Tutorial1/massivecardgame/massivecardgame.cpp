@@ -64,15 +64,16 @@ int main(void)
     mergeSort(cards, 0, N - 1);
 
     // print cards array
-    for (unsigned long long int i = 0; i < N; i += 1)
-    {
-        printf("%llu ", cards[i]);
-    }
-    printf("\n");
+    // for (unsigned long long int i = 0; i < N; i += 1)
+    // {
+    //     printf("%llu ", cards[i]);
+    // }
+    // printf("\n");
 
     unsigned long long int no_ranges = 0;
     scanf("%llu", &no_ranges);
     unsigned long long L, R;
+    unsigned long long start, end;
 
     // for each range ...
     for (unsigned long long int i = 0; i < no_ranges; i += 1)
@@ -80,15 +81,39 @@ int main(void)
         scanf("%llu %llu", &L, &R);
         // printf("%llu, %llu\n", L, R);
 
-        unsigned long long int count = 0;
+        if ((L < 0) || L > N || (R < 0) || R > N)
+        {
+            printf("0\n");
+            continue;
+        }
+
         for (unsigned long long int j = 0; j < N; j += 1)
         {
-            if (cards[j] >= L && cards[j] <= R)
+            if ((cards[j] != L) && (cards[j] != R))
             {
-                count += 1;
+                printf("0\n");
+                continue;
             }
         }
-        printf("%llu\n", count);
+
+        // find the start and end index of the range
+        for (unsigned long long int j = 0; j < N; j += 1)
+        {
+            if (cards[j] == L)
+            {
+                start = j;
+                break;
+            }
+        }
+        for (unsigned long long int j = N - 1; j >= 0; j -= 1)
+        {
+            if (cards[j] == R)
+            {
+                end = j;
+                break;
+            }
+        }
+        printf("start : %llu ,end : %llu\n", start, end);
     }
     return 0;
 }

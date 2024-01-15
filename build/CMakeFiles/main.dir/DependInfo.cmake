@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.cpp" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.cpp.o" "gcc" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/massivecardgame/learn.cpp.o.d"
+  "/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.cpp" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.cpp.o" "gcc" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial1/pathcrossings/pathcrossings.cpp.o.d"
   )
 
 # Targets to which this target links.
