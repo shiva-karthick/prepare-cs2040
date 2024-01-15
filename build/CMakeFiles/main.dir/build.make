@@ -69,28 +69,28 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp.o: /home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp
-CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shankar/Shiva/prepare-cs2040/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp.o"
-	/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp.o -MF CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp.o.d -o CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp.o -c /home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp
+CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp.o: /home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp
+CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shankar/Shiva/prepare-cs2040/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp.o"
+	/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp.o -MF CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp.o.d -o CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp.o -c /home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp
 
-CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp.i"
-	/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp > CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp.i
+CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp.i"
+	/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp > CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp.i
 
-CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp.s"
-	/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp -o CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp.s
+CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp.s"
+	/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp -o CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp.o"
+"CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp.o
+main: CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shankar/Shiva/prepare-cs2040/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main"

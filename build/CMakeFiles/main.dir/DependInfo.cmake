@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp.o" "gcc" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/basicprogramming2.cpp.o.d"
+  "/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp.o" "gcc" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp.o.d"
   )
 
 # Targets to which this target links.

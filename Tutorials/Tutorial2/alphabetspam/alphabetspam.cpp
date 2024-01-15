@@ -1,4 +1,5 @@
 #include <bits/extc++.h>
+#include <stdlib.h>
 
 using namespace std;
 using namespace __gnu_pbds;
@@ -45,5 +46,47 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-        return 0;
+    string s;
+    // get the input
+    getline(cin, s);
+
+    // get the length of the string
+    ll N = s.length();
+    ll whitespace = 0, lowercase = 0, uppercase = 0, symbol = 0;
+
+    for (ll i = 0; i < N; i += 1)
+    {
+        // check if the character is a space
+        if (ll(s[i]) == 95)
+        {
+            whitespace += 1;
+            continue;
+        }
+
+        // check if the character is uppercase
+        if (isupper(s[i]))
+        {
+            uppercase += 1;
+            continue;
+        }
+
+        // check if the character is lowercase
+        if (islower(s[i]))
+        {
+            lowercase += 1;
+            continue;
+        }
+
+        // if the character is not a space, uppercase or lowercase, it is a symbol
+        symbol += 1;
+    }
+
+    // cout << "whitespace: " << whitespace << '\n';
+    // print the ratio of whitespace, lowercase, uppercase and symbol
+    cout << fixed << setprecision(15) << static_cast<double>(whitespace) / static_cast<double>(N) << '\n';
+    cout << fixed << setprecision(15) << static_cast<double>(lowercase) / N << '\n';
+    cout << fixed << setprecision(15) << static_cast<double>(uppercase) / N << '\n';
+    cout << fixed << setprecision(15) << static_cast<double>(symbol) / N << '\n';
+
+    return 0;
 }
