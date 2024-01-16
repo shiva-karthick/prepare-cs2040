@@ -1,1 +1,1 @@
-/bin/clang++-17 CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp.o -o main  -lm 
+/bin/clang++-17 CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp.o -o main  -lm 

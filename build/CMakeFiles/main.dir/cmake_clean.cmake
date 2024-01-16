@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp.o"
-  "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/alphabetspam/alphabetspam.cpp.o.d"
+  "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp.o"
+  "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp.o.d"
   "main"
   "main.pdb"
 )
