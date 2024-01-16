@@ -69,28 +69,28 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp.o: /home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp
-CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shankar/Shiva/prepare-cs2040/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp.o"
-	/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp.o -MF CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp.o.d -o CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp.o -c /home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp
+CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.o: /home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp
+CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shankar/Shiva/prepare-cs2040/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.o"
+	/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.o -MF CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.o.d -o CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.o -c /home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp
 
-CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp.i"
-	/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp > CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp.i
+CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.i"
+	/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp > CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.i
 
-CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp.s"
-	/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp -o CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp.s
+CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.s"
+	/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp -o CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp.o"
+"CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp.o
+main: CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shankar/Shiva/prepare-cs2040/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main"

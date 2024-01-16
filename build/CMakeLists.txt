@@ -27,7 +27,7 @@ project(prepare-cs2040)
 # link_directories(/usr/local/lib)
 
 # ----- 4. File to compile
-set(sources /home/shankar/Shiva/prepare-cs2040/Tutorials/Tutorial2/mjehuric/mjehuric.cpp)
+set(sources /home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp)
 
 add_executable(main ${sources})
 
