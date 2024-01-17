@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.o: home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.o
-.PHONY : home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.o
+home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.o: home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.cpp.o
+.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.o
 
 # target to build an object file
-home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.o
-.PHONY : home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.o
+home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.cpp.o
+.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.cpp.o
 
-home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.i: home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.i
-.PHONY : home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.i
+home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.i: home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.cpp.i
+.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.i
 
 # target to preprocess a source file
-home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.i
-.PHONY : home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.i
+home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.cpp.i
+.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.cpp.i
 
-home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.s: home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.s
-.PHONY : home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.s
+home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.s: home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.cpp.s
+.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.s
 
 # target to generate assembly for a file
-home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.s
-.PHONY : home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.s
+home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.cpp.s
+.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.o"
-	@echo "... home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.i"
-	@echo "... home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.s"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.o"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.i"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.s"
 .PHONY : help
 
 

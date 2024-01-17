@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.o" "gcc" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/quickbrownfox/quickbrownfox.cpp.o.d"
+  "/home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.cpp" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.cpp.o" "gcc" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/greedilyincreasing/greedilyincreasing.cpp.o.d"
   )
 
 # Targets to which this target links.

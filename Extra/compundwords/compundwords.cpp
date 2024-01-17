@@ -1,19 +1,14 @@
-#include <string>
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <map>
-#include <set>
-#include <cassert>
+#include <bits/extc++.h>
 
 using namespace std;
-
+using namespace __gnu_pbds;
 using ll = long long;
 using ull = unsigned long long int;
 typedef vector<ll> vll;
 typedef pair<ll, ll> pll;
 #define INF 10e15
-// template <class T> using binary_tree = tree<T, null_type, logical_and<T>, rb_tree_tag, tree_order_statistics_node_update>;
+template <class T>
+using binary_tree = tree<T, null_type, logical_and<T>, rb_tree_tag, tree_order_statistics_node_update>;
 // change comparator type of logical_and to custom or greater<T> for PQ_max or less<T> for PQ_min
 
 // print out vector
@@ -50,43 +45,35 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-    ll r, n;
-    cin >> r;
-    cin >> n;
+    string s;
+    set<string> input;
+    vector<string> tmp;
+    set<string> output;
 
-    vector<bool> array(r + 1);
-    ll val;
-
-    // just need to count the number of filled slots
-    for (ll i = 0; i < n; i += 1)
+    while (cin >> s)
     {
-        cin >> val;
-        array[val] = true;
+        input.insert(s);
     }
 
-    // cout << "---" << endl;
-
-    for (ll i = 1; i <= r; i += 1)
+    for (auto ss : input)
     {
-        if (array[i] != true)
+        tmp.push_back(ss);
+    }
+
+    for (ll i = 0; i < tmp.size(); i += 1)
+    {
+        for (ll j = 0; j < tmp.size(); j += 1)
         {
-            cout << i << endl;
-            return 0;
+            if (i != j)
+            {
+                output.insert(tmp[i] + tmp[j]);
+            }
         }
     }
 
-    for (ll i = 1; i <= r; i += 1)
+    for (auto ss : output)
     {
-        if (array[i] != true)
-        {
-            cout << i << endl;
-            return 0;
-        }
-        else
-        {
-            cout << "too late" << endl;
-            return 0;
-        }
+        cout << ss << '\n';
     }
 
     return 0;
