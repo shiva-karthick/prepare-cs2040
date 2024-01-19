@@ -70,46 +70,5 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-    ll number_of_freshmen = 0;
-    cin >> number_of_freshmen;
-
-    map<array<ll, 5>, ll> m;
-    for (ull i = 0; i < number_of_freshmen; i += 1)
-    {
-        array<ll, 5> arr;
-        for (ull j = 0; j < 5; j += 1)
-        {
-            cin >> arr[j];
-        }
-        sort(arr.begin(), arr.end());
-        m[arr]++;
-    }
-
-    // print m
-    // for (auto i : m)
-    // {
-    //     cout << i.first[0] << ' ' << i.first[1] << ' ' << i.first[2] << ' ' << i.first[3] << ' ' << i.first[4] << ' ' << i.second << endl;
-    // }
-
-    ll max = 0;
-    for (auto i : m)
-    {
-        if (i.second > max)
-        {
-            max = i.second;
-        }
-    }
-
-    ll count = 0;
-    for (auto i : m)
-    {
-        if (i.second == max)
-        {
-            count += i.second;
-        }
-    }
-
-    cout << count << endl;
-
     return 0;
 }
