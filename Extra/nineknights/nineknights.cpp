@@ -45,47 +45,51 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-    // Input start
-    ll N = 0, M = 0, dance_moves = 0; // N rows and M columns
-    cin >> N >> M;
+    // 	2D array checks; 8 directions
+    // count the 9 knights
     vector<vector<char>> grid;
     string row;
+    grid.assign(5, vector<char>(5));
 
-    grid.assign(N, vector<char>(M));
+    int dr[] = {-2, -1, 1, 2, 2, 1, -1, -2};
+    int dc[] = {1, 2, 2, 1, -1, -2, -2, -1};
 
-    for (ll i = 0; i < N; i += 1)
+    for (ll i = 0; i < 5; i += 1)
     {
         cin >> row;
-        for (ll j = 0; j < M; j += 1)
+        for (ll j = 0; j < 5; j += 1)
         {
             grid[i][j] = row[j];
         }
     }
-    // Input done
 
-    // count the number of blank columns plus one
-    for (ll i = 0; i < M; i += 1)
+    ll count = 0;
+    for (ll i = 0; i < 5; i += 1)
     {
-        bool check = true;
-        for (ll j = 0; j < N; j += 1)
+        for (ll j = 0; j < 5; j += 1)
         {
-            if (grid[j][i] == '_')
+            if (grid[i][j] == 'k')
             {
-                check = true;
+                count += 1;
+                // check all possible 8 directions
+                for (ll k = 0; k < 8; k += 1)
+                {
+                    ll r = i + dr[k];
+                    ll c = j + dc[k];
+                    if (r >= 0 && r < 5 && c >= 0 && c < 5 && grid[r][c] == 'k')
+                    {
+                        cout << "invalid" << endl;
+                        return 0;
+                    }
+                }
             }
-            else
-            {
-                check = false;
-                break; // go to the next column
-            }
-        }
-        if (check)
-        {
-            dance_moves += 1;
         }
     }
 
-    cout << dance_moves + 1 << endl;
+    if (count == 9)
+        cout << "valid" << endl;
+    else
+        cout << "invalid" << endl;
 
     return 0;
 }

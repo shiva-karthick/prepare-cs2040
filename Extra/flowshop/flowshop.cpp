@@ -45,47 +45,31 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-    // Input start
-    ll N = 0, M = 0, dance_moves = 0; // N rows and M columns
-    cin >> N >> M;
-    vector<vector<char>> grid;
-    string row;
+    /*  Kattis - flowshop
+    Observe the pattern.Go row by row, column by column to determine the time the ith swather left the
+    jth stage(represented by arr[i][j]).
 
-    grid.assign(N, vector<char>(M));
+    Time: O(n ^ 2), Space : O(n ^ 2)
+*/
 
-    for (ll i = 0; i < N; i += 1)
+        // Simulate the process.
+    // The key observation is that the time one finishes depends on the time each
+    // stage is free.
+    int n, m;
+    cin >> n >> m;
+    vector<int> end(m);
+    for (int i = 0; i < n; ++i)
     {
-        cin >> row;
-        for (ll j = 0; j < M; j += 1)
+        int cur = 0;
+        for (int j = 0; j < m; ++j)
         {
-            grid[i][j] = row[j];
+            int t;
+            cin >> t;
+            cur = max(cur, end[j]) + t;
+            end[j] = cur;
         }
+        cout << cur << ' ';
     }
-    // Input done
-
-    // count the number of blank columns plus one
-    for (ll i = 0; i < M; i += 1)
-    {
-        bool check = true;
-        for (ll j = 0; j < N; j += 1)
-        {
-            if (grid[j][i] == '_')
-            {
-                check = true;
-            }
-            else
-            {
-                check = false;
-                break; // go to the next column
-            }
-        }
-        if (check)
-        {
-            dance_moves += 1;
-        }
-    }
-
-    cout << dance_moves + 1 << endl;
 
     return 0;
 }
