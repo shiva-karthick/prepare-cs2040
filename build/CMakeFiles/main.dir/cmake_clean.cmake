@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.cpp.o"
-  "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.cpp.o.d"
+  "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.cc.o"
+  "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.cc.o.d"
   "main"
   "main.pdb"
 )

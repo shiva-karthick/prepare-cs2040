@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.o: home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.cpp.o
-.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.o
+home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.o: home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.cc.o
+.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.o
 
 # target to build an object file
-home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.cpp.o
-.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.cpp.o
+home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.cc.o
+.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.cc.o
 
-home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.i: home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.cpp.i
-.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.i
+home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.i: home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.cc.i
+.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.i
 
 # target to preprocess a source file
-home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.cpp.i
-.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.cpp.i
+home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.cc.i
+.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.cc.i
 
-home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.s: home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.cpp.s
-.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.s
+home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.s: home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.cc.s
+.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.s
 
 # target to generate assembly for a file
-home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.cpp.s
-.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.cpp.s
+home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.cc.s
+.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.cc.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.o"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.i"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Extra/conformity/conformity.s"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.o"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.i"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.s"
 .PHONY : help
 
 
