@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sidewayssorting/sidewayssorting.cc.o"
-  "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sidewayssorting/sidewayssorting.cc.o.d"
+  "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.o"
+  "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.o.d"
   "main"
   "main.pdb"
 )

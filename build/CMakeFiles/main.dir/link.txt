@@ -1,1 +1,1 @@
-/bin/clang++-17 CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sidewayssorting/sidewayssorting.cc.o -o main  -lm 
+/bin/clang++-17 CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.o -o main  -lm 

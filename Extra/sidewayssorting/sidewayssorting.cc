@@ -105,7 +105,7 @@ int main()
         // Sort the words
         words = insertion_sort(words);
 
-               for (int i = 0; i < columns; i += 1)
+        for (int i = 0; i < columns; i += 1)
         {
             for (int j = 0; j < rows; j += 1)
             {
