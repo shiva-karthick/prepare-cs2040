@@ -27,7 +27,7 @@ project(prepare-cs2040)
 # link_directories(/usr/local/lib)
 
 # ----- 4. File to compile
-set(sources /home/shankar/Shiva/prepare-cs2040/Extra/funhouse/funhouse.cc)
+set(sources /home/shankar/Shiva/prepare-cs2040/Extra/sidewayssorting/sidewayssorting.cc)
 
 add_executable(main ${sources})
 
