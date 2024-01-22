@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.o: home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.o
-.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.o
+home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.o: home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o
+.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.o
 
 # target to build an object file
-home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.o
-.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.o
+home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o
+.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o
 
-home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.i: home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.i
-.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.i
+home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.i: home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.i
+.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.i
 
 # target to preprocess a source file
-home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.i
-.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.i
+home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.i
+.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.i
 
-home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.s: home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.s
-.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.s
+home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.s: home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.s
+.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.s
 
 # target to generate assembly for a file
-home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.s
-.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.s
+home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.s
+.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.o"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.i"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.s"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.o"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.i"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.s"
 .PHONY : help
 
 

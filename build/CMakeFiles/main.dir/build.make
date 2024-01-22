@@ -69,28 +69,28 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.o: /home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc
-CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shankar/Shiva/prepare-cs2040/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.o"
-	/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.o -MF CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.o.d -o CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.o -c /home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc
+CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o: /home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc
+CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shankar/Shiva/prepare-cs2040/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o"
+	/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o -MF CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o.d -o CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o -c /home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc
 
-CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.i"
-	/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc > CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.i
+CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.i"
+	/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc > CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.i
 
-CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.s"
-	/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc -o CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.s
+CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.s"
+	/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc -o CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.o"
+"CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/sim/sim.cc.o
+main: CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shankar/Shiva/prepare-cs2040/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main"
