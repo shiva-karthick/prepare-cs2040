@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o" "gcc" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o.d"
+  "/home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.cpp" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.cpp.o" "gcc" "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.cpp.o.d"
   )
 
 # Targets to which this target links.

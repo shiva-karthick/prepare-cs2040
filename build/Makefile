@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.o: home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o
-.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.o
+home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.o: home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.cpp.o
+.PHONY : home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.o
 
 # target to build an object file
-home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o
-.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o
+home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.cpp.o
+.PHONY : home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.cpp.o
 
-home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.i: home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.i
-.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.i
+home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.i: home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.cpp.i
+.PHONY : home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.i
 
 # target to preprocess a source file
-home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.i
-.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.i
+home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.cpp.i
+.PHONY : home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.cpp.i
 
-home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.s: home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.s
-.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.s
+home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.s: home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.cpp.s
+.PHONY : home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.s
 
 # target to generate assembly for a file
-home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.s
-.PHONY : home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.s
+home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.cpp.s
+.PHONY : home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.o"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.i"
-	@echo "... home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.s"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.o"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.i"
+	@echo "... home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.s"
 .PHONY : help
 
 

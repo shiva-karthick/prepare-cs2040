@@ -1,1 +1,1 @@
-/bin/clang++-17 CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o -o main  -lm 
+/bin/clang++-17 CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.cpp.o -o main  -lm 

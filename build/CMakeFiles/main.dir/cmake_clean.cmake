@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o"
-  "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Extra/imageprocessing/imageprocessing.cc.o.d"
+  "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.cpp.o"
+  "CMakeFiles/main.dir/home/shankar/Shiva/prepare-cs2040/Lectures/linked_list.cpp.o.d"
   "main"
   "main.pdb"
 )
